@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as l,a}from"./app.5a09cad8.js";const m=JSON.parse('{"title":"low-code","description":"","frontmatter":{},"headers":[],"relativePath":"no-codes/index.md"}'),c={name:"no-codes/index.md"},t=a("",2),d=[t];function i(r,_,n,s,h,w){return l(),o("div",null,d)}const p=e(c,[["render",i]]);export{m as __pageData,p as default};
