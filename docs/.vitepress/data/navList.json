@@ -2,19 +2,19 @@
     {"text":"Revistied",
     "items":[
         {"text":"overview","link":"/testing/index"},
-        {"text":"language-basic","link":"/testing/language-basic"},
-        {"text":"lib-focues","link":"/testing/testing-libs"}
+        {"text":"Language-Basic","link":"/testing/language-basic"},
+        {"text":"Lib-Focus","link":"/testing/testing-libs"}
     ]},
     {"text":"Web3",
         "items":[
-            {"text":"blockchain","link": "/web3/blockchain"},
-            {"text":"solidty","link": "/web3/solidity"},
-            {"text":"backend","link": "/web3/backend"},
-            {"text":"frontend","link": "/web3/frontend"},
-            {"text":"data","link": "/web3/data"}
+            {"text":"Blockchain","link": "/web3/blockchain"},
+            {"text":"Solidty","link": "/web3/solidity"},
+            {"text":"Backend","link": "/web3/backend"},
+            {"text":"Frontend","link": "/web3/frontend"},
+            {"text":"Data","link": "/web3/data"}
         ]
     },
     {"text":"Guides","items":[
-        {"text":"docs","link":"/guides/index"}
+        {"text":"Docs","link":"/guides/index"}
     ]}
 ]
