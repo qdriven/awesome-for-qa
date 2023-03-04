@@ -9,7 +9,18 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.40",
+    "simple-git": "^3.16.1",
+    "simple-git-hooks": "^2.8.1",
+    "vite": "^4.1.4",
+    "vitepress": "^1.0.0-alpha.49",
     "vue": "^3.2.45"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,vue,md}": [
+      "eslint --cache --fix"
+    ]
+  },
+  "simple-git-hooks":{
+    "pre-commit": "npx lint-staged"
   }
 }
