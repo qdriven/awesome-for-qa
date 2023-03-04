@@ -1,35 +1,12 @@
-const navList =[
-    {text:"Project Ideas ",link: "project/index"},
-    {text:"Solidity ",link: "solidity/index"},
-    {text:"QA/Testing Projects",
-        link: "/testing/index"},
-    {text:"low-codes",
-        link: "/no-codes/index"},
-    {text:"About",link:"/about"}
-]
-
-const sideBars = [
-    {
-        text:"Guide",
-        items:[
-            {text: 'Build Website',link: "/guides/build-website/index"},
-            {text: 'Configuration',link: "/guides/configuration/index"},
-        ]
-    },
-    {
-        text: "Awesome-QA",
-        items:[
-            {text: 'Opensource QA-Projects',link: "/awesome-testing/index"},
-            {text: 'Testing Reading',link: "/awesome-testing/index"},
-        ]
-    }
-]
-
+import navs from "./data/navList.json"
+import sidebarjson from "./data/sidebar.json"
+const navList = navs
+const sidebar = sidebarjson
 export default {
 
-    title: "awesomeqa-projects",
-    description: "A list of awesome qa projects",
-    base: "/awesome-list-for-qa/",
+    title: "Revisited Software QA",
+    description: "Software QA in Short",
+    base: "/awesome-for-qa/",
     themeConfig:{
         logo: "/logo.svg",
         siteTitle: "Awesome QA Projects",
@@ -45,6 +22,6 @@ export default {
             theme: "material-palenight",
             lineNumbers: true,
           }    
-    }
-
+    },
+    sidebar
 }

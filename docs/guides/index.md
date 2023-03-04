@@ -2,5 +2,5 @@
 
 ## Build Website with vitepress
 
-- [build-website](./build-website/index.md)
-- [configuration](./configuration/index.md)
+- [build-website](./docs/build-website/index.md)
+- [configuration](./docs/configuration/index.md)

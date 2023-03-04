@@ -1,17 +1,19 @@
 ---
 layout: home
-# hero section
 hero:
-  name: Aseome testing Collections
-  # text: Repository of portfolio Inspiration
+  name: Testing Collections
+  text: Awesome Software Testing/QA List
   image:
     src: /Megaphone.png
     alt: awesome qa collections logo
-  tagline: A curation of awesome testing collections for developers and testers to know more about software testing and QA
+  tagline: Revisited Software QA Path by A curation of awesome testing collections and personal experience and experiments. Less Buzzy words, more practical!
   actions:
     - theme: brand
-      text: See Awesome Testing
+      text: practical-testing
       link: /awesome-testing/index
+    - theme: brand
+      text: practical-automation-testing
+      link: /no-codes/index
     - theme: alt
       text: View on GitHub
       link: https://github.com/fluent-qa/awesome-testing
@@ -19,15 +21,16 @@ hero:
 # Feature sections
 features:
   - icon: 💜
-    title: The Best Resource
-    details: Over 130+ inspiration in a single repository
-  - icon: ⚛️
-    title: Technologies Used
-    details: Discover the technologies used for each project or writings.
-  - icon: 📷
-    title: Project Quick start
-    details: Know what each project looks like without spending too much time
+    title: Practical QA Skills
+    details: Testing skills through real cases
   - icon: 🥑
-    title: Source Code
-    details: Most Projects's source code is available.
+    title: Simple Explaination 
+    details: Get rid of complex conceptions, focusing on daily usage
+  - icon: ⚛️
+    title: Daily Work Orientend
+    details: Leverage different technologies without too much overhead
+  - icon: 📷
+    title: Web3 
+    details: Help you quick jumping into web3 world
+
 ---

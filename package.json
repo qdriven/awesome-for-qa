@@ -6,9 +6,14 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "lint": "eslint --cache .",
+    "lint:fix": "nr lint --fix"
   },
   "devDependencies": {
+    "fast-glob": "^3.2.12",
+    "fs-extra": "^11.1.0",
+    "gray-matter": "^4.0.3",
     "simple-git": "^3.16.1",
     "simple-git-hooks": "^2.8.1",
     "vite": "^4.1.4",
@@ -20,7 +25,7 @@
       "eslint --cache --fix"
     ]
   },
-  "simple-git-hooks":{
+  "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   }
 }

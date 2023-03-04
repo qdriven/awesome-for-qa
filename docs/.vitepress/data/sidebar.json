@@ -1,0 +1,16 @@
+{   "/":[],
+    "/guides/":[
+        {"text":"guides for projects",
+          "items":[
+            {"text": "guides overview","link":"/guides/"}
+          ]
+        },{
+            "text":"build a docs site",
+            "items":[
+              {"text": "overview","link":"/guides/docs/"},
+              {"text": "doc-website","link":"/guides/build-website/"},
+              {"text": "configuration","link":"/guides/configuration/"}
+            ] 
+        }
+    ]
+}
