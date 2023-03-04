@@ -1,12 +1,17 @@
 # README
 
-A Website template for QA to build doc site.
+<h1 align="center"> Awesome-For-QA
+</h1>
 
-How to Build:
+<p align="center">
+ Awesome Lists for Revisiting Software QA.
+</p>
 
-- [quickstart](docs/guides/build-website/index.md)
 
+## SoftwareQA-101
+## Software QA Roadmap
 
-## Awesome list
+## Software QA Over the time
 
-- [solidity](docs/solidity/index.md)
+## Not Only Software QA
+
